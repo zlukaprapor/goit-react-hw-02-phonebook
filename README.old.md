@@ -209,3 +209,5 @@ npm run deploy
 git add .
 git commit -m "test"
 git push
+npm run build
+npm run deploy
