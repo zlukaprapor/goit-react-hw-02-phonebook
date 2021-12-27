@@ -22,7 +22,7 @@ class Form extends Component {
       id: nanoid(4),
     };
     this.props.addToPhonebook(singleContact);
-    this.render();
+    this.reset();
   };
 
   reset = () => {
