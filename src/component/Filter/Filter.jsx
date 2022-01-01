@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import { Label } from "./Filter.stiled";
 
 const Filter = ({ filter, inputHandler }) => {
   return (
     <>
       <p>Find contacts by name</p>
-      <label>
+      <Label>
         <input
           onChange={inputHandler}
           type="text"
@@ -12,7 +13,7 @@ const Filter = ({ filter, inputHandler }) => {
           placeholder="Enter name..."
           value={filter}
         />
-      </label>
+      </Label>
     </>
   );
 };

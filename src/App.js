@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Form from "./component/Form";
-import ContactList from "./component/contactList/ContactList";
+import ContactList from "./component/ContactList";
 import Filter from "./component/Filter";
 
 class App extends Component {
